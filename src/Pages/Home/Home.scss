@@ -1,0 +1,28 @@
+.container {
+    &__cuadro {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        &--info {
+            width: 20%;
+            margin: 20px auto;
+            text-align: center;
+        }
+    }
+}
+
+.service {
+    text-align: center;
+    margin: 20px;
+    
+    &-title {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    
+    &-description {
+      font-size: 0.9em;
+    }
+  }
+  

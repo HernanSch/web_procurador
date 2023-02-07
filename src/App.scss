@@ -1,0 +1,65 @@
+*,
+
+*::before,
+
+*::after {
+
+    margin: 0;
+
+    padding: 0;
+
+    
+
+}
+
+body {
+
+    color: #ffffff;
+
+    background-size: 50%;
+
+    height: 100vh;
+
+    background: #ffffff;
+
+    font-family: 'Open Sans', 'Merriweather Sans', sans-serif;
+
+    // -webkit-text-stroke: 2px black;
+
+    // box-sizing: border-box;
+
+    font-style: normal;
+
+}
+
+
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+
+
+  }
+
+
+
+ul,li {
+
+    list-style-type:none;
+
+}
+
+
+
+a:link,
+
+a:visited {
+
+  text-decoration:none;
+
+  color: #ffffff;
+
+}
