@@ -4,7 +4,7 @@ import "./Carrusel.scss"
 function Carrusel() {
   return (
     <Carousel className='carousel'>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={5000}>
         <img
           className="d-block w-100"
           src="https://kilometrosquecuentan.goodyear.eu/wp-content/uploads/2017/06/madrid-mirador-gran-via.jpg"
@@ -18,7 +18,7 @@ function Carrusel() {
           <p className='textoCarrusel'>Estudio y reclamacion precia gratuita</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
+      <Carousel.Item interval={5000}>
         <img
           className="d-block w-100"
           src="https://offloadmedia.feverup.com/madridsecreto.co/wp-content/uploads/2019/11/08103504/vistas-desde-cerro-tio-pio.jpg"

@@ -1,28 +1,37 @@
 .container {
-    &__cuadro {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-
-        &--info {
-            width: 20%;
-            margin: 20px auto;
-            text-align: center;
-        }
+    max-width: 1200px;
+    margin: 0 auto;
     }
-}
-
-.service {
+    
+    .carrusel {
+    width: 100%;
+    }
+    
+    .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    }
+    
+    .service {
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 20px;
     text-align: center;
-    margin: 20px;
-    
-    &-title {
-      font-weight: bold;
-      font-size: 1.2em;
+    margin-bottom: 50px;
     }
     
-    &-description {
-      font-size: 0.9em;
+    .service-title {
+    font-size: 24px;
+    margin-bottom: 20px;
     }
-  }
-  
+    
+    .service-description {
+    font-size: 18px;
+    }
+    
+    .formulario {
+    margin-top: 50px;
+    text-align: center;
+    }
