@@ -1,0 +1,19 @@
+.dropdown-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: rgb(18, 17, 17);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    list-style: none;
+  }
+  
+.dropdown-menu-item {
+margin-bottom: 10px;
+padding: 10px 20px;
+background-color: rgb(216, 9, 9);
+border-radius: 10px;
+}
