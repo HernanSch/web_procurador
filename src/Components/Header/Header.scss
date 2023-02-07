@@ -3,38 +3,25 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  list-style: none;
+  
 
   &__logo {
     height: 56px;
     width:  38px;
     margin-top: 15%;
+    list-style: none;
   }
-
-  &__menu {
-    display: flex;
-
-    &--list {
-      list-style: none;
-      display: flex;
-
-      &--list1 {
-        margin-left: 20px;
-
-        button {
-          background-color: transparent;
-          border: none;
-          color: black;
-          cursor: pointer;
-        }
-
-        &__titulo {
-          font-size: 16px;
-        }
-      }
-    }
-  }
+ 
 }
 
+.header__menu--list {
+  list-style: none;
+}
+
+.header__sub-menu{
+  list-style: none;
+}
 
 .bn3637 {
     display: inline-flex;
@@ -55,8 +42,8 @@
   .bn37 {
     font-size:0.8em;
     border-color: transparent;
-    background-color: #103b5b;
-    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
     transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
     &:hover {
         border-bottom-color: rgb(120, 185, 245);
