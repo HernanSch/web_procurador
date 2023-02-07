@@ -50,6 +50,20 @@
 
 .header__sub-menu a:hover {
   background-color: #444;
+  color: #fff;
+}
+.header__menu button {
+  background-color: #ffffff;
+  color: #4d4c4c;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header__menu button:hover {
+  background-color: #444;
+  color: #fff;
 }
 .bn3637 {
     display: inline-flex;
