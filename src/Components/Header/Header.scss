@@ -21,9 +21,36 @@
 
 .header__sub-menu{
   list-style: none;
-  cursor: pointer;
+  cursor: pointer;  
+  top: "68px"; 
+  right: "50px"; 
+  background-color: #333;
+  color: #fff;
+  list-style: none;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  padding: 10px 0;
+  width: 200px;
+}
+.header__sub-menu li {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
 }
 
+.header__sub-menu li:last-child {
+  border-bottom: none;
+}
+
+.header__sub-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__sub-menu a:hover {
+  background-color: #444;
+}
 .bn3637 {
     display: inline-flex;
     align-items: center;
